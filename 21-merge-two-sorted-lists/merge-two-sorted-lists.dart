@@ -8,7 +8,7 @@
  */
 class Solution {
   ListNode? mergeTwoLists(ListNode? list1, ListNode? list2) {
-    ListNode? head = ListNode();
+    final head = ListNode();
     ListNode? cur = head;
 
     while (list1 != null && list2 != null) {
